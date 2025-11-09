@@ -345,6 +345,25 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "16ratneshkumar",
+      "name": "Ratnesh Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/142919875?v=4",
+      "profile": "https://github.com/16ratneshkumar",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "Towbee05",
+      "name": "Tobi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114928370?v=4",
+      "profile": "https://github.com/Towbee05",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

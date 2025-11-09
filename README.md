@@ -44,6 +44,17 @@
 
 To view a live example, **[click here](https://ashutosh1919.github.io/)**
 
+# Table of Contents
+ - [Clone and Use](#clone-and-use)
+ - [Customizing](#customize-it-to-make-your-own-portfolio)
+ - [Choose Theme](#choose-theme)
+ - [Deployment](#deployment)
+ - [Technologies Used](#technologies-used)
+ - [Illustrations](#illustrations)
+ - [License](#license)
+ - [Contributors](#contributors)
+ - [References](#references)
+
 # Clone and Use 📋
 
 - The website is completely built on `react-js` library of `javascript` and that's why we need `nodejs` and `npm` installed
@@ -103,6 +114,21 @@ You can change the personal information, experience, education, social media, ce
 2. Insert the image name into the `imageSrc` attribute of the particular softwareSkill
 3. Remove the `fontAwesomeClassName` property or leave it empty because it takes precedence over `imageSrc`
 4. Add custom styling to the `img` using the `style` Property
+
+### How to Change the Icons on Education page under Basic Qualification and Certifications?
+
+1. The icons for this section are pulled from the `competitiveSites` array in the `portfolio.js` file.
+2. Visit the [Simple Icons website](https://simpleicons.org/).
+3. Search for the competitive site you want to add an icon for.
+4. Select the icon you want to use.
+5. Copy the text beside Selected Icon and replace it with iconifyClassname of that particular competitive site.
+
+### How to Use Custom Images Instead of Simple Icons for Competitive Sites
+
+1. Place the custom image file in the `public/skills` folder.
+2. Update the `imageSrc` attribute of the corresponding competitive site with the name of your custom image (e.g., `imageSrc: "customImage.png"`).
+3. Remove the `iconifyClassname` property or leave it empty, as the `imageSrc` property takes precedence over `iconifyClassname`.
+4. Optionally, add custom styling to the `<img>` tag using the `style` property to adjust size, positioning, etc.
 
 ### Github Information
 
@@ -261,6 +287,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Adamou02"><img src="https://avatars.githubusercontent.com/u/42783707?v=4?s=100" width="100px;" alt="Adam Bouhrara"/><br /><sub><b>Adam Bouhrara</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=Adamou02" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/16ratneshkumar"><img src="https://avatars.githubusercontent.com/u/142919875?v=4?s=100" width="100px;" alt="Ratnesh Kumar"/><br /><sub><b>Ratnesh Kumar</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=16ratneshkumar" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=16ratneshkumar" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Towbee05"><img src="https://avatars.githubusercontent.com/u/114928370?v=4?s=100" width="100px;" alt="Tobi"/><br /><sub><b>Tobi</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=Towbee05" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
